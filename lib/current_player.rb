@@ -4,8 +4,6 @@ def turn_count(board)
     if tell == "X" || tell == "O"
       counter += 1
     end
+  end
 end
 
-
-board = ["X", "O", " ", " "]
-turn_count(board)
